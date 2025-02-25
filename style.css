@@ -1,0 +1,552 @@
+* {
+    color: #ffffff;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#headerone {
+    background-color: rgb(220, 103, 7);
+    height: 11em;
+}
+
+.top {
+    display: flex;
+}
+
+.icon {
+    margin: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+#fb {
+    margin-left: 57rem;
+}
+
+#istline {
+    font-size: 1.5rem;
+    margin-left: 50rem;
+}
+
+#sdline {
+    font-size: 1.5rem;
+    color: blue;
+    margin: .5rem 0rem .5rem 53rem;
+    font-weight: bold;
+
+}
+
+#tdline {
+    font-size: 1.5rem;
+}
+
+#headertwo {
+    display: flex;
+    width: 110rem;
+}
+
+#logo1 {
+    height: 15rem;
+    width: 15rem;
+    mix-blend-mode: color-burn;
+    margin: 1rem 0rem 0rem 10rem;
+}
+
+#middle {
+    height: 15rem;
+    mix-blend-mode: color-burn;
+    margin: 1rem 0rem 0rem 15rem;
+}
+
+#g20 {
+    height: 15rem;
+    mix-blend-mode: color-burn;
+    margin: 1rem 0rem 0rem 10rem;
+}
+
+#navbar {
+    margin-top: 1rem;
+    height: 3rem;
+    background-color: #062929;
+    position: sticky;
+    font-size: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.anchor{
+
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.principalmessage {
+    width: 80rem;
+    margin: 1rem 20rem 0rem 13rem;
+    border: .5rem solid rgb(204, 72, 6);
+    padding: 3rem;
+    background-color: rgba(167, 153, 153, 0.386);
+}
+
+.message {
+    color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.principal {
+    color: red;
+}
+
+#principalimage {
+    margin-left: 4rem;
+    width: 65rem;
+}
+
+.last {
+    font-family: sans-serif;
+    text-align: start;
+    color: red;
+}
+
+.gray{
+    height:8rem;
+    background-color:#062929;
+    margin-top: 1rem;
+}
+
+.mission{
+    font-size: 3rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+}
+
+.divmission{
+    margin-left: 15rem;
+}
+
+#mission{
+    height: 40rem;
+    width: 40rem;
+}
+
+#vision{
+    margin-top: 5rem;
+    height: 30rem;
+    width: 90rem;
+}
+
+#values{
+    margin-top: 5rem;
+    height: 40rem;
+    width: 40rem;    
+}
+
+#teachers{
+    margin-left:15rem;
+}
+
+.teachers{
+    height: 30rem;
+    width: 30rem;
+}
+
+.name {
+    text-transform: capitalize;
+    text-align: center;
+    color: #ff0000;
+}
+
+.nam{
+    display: inline-block;
+    color: red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trade{
+    color: red;
+    display: inline-block;
+    margin: 0rem;
+}
+
+.radhe{
+    display: inline-block;
+}
+
+.mam{
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.singla{
+    margin-left: 13rem;
+    display: inline-block;
+}
+
+.query{
+    height: 10fem;
+    background-color: rgb(8, 216, 244);
+}
+
+#query{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#gallery{
+    margin-left: 2rem;  
+}
+
+.gallery{
+    width: 33rem;
+    margin: .5rem;
+}
+
+#flex1,#flex2{
+    display: flexbox;
+    width: 105rem;
+}
+
+#new{
+    height: 5rem;
+    background-color: #f08804;
+}
+
+#last{
+    font-size: 2.5rem;
+    margin-left: 45rem;
+}
+
+#hyperlink{
+    margin-left: 0rem;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+
+#footer {
+    height: 65rem;
+    background-color: #062929;
+}
+
+#mainfooter{
+    width: 105rem;
+    display: flex;
+}
+
+font{
+    font-size: 2rem;
+}
+
+.logo {
+    height: 35rem;
+    width: 45rem;
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: #f08804;
+    margin-left: 1.5rem;
+}
+
+#slogan {
+    position: absolute;
+    left: 80rem;
+    top: 2rem;
+    width: 40rem;
+}
+
+.sloganimg{
+    height: 8rem;
+}
+
+.nara {
+    display: inline;
+    margin-left: 2rem;
+}
+
+#contact{
+    height: 10rem;
+    display: flex;
+    position: absolute;
+    top: 40rem;
+}
+
+#call {
+    margin-top: 5rem;
+    width: 35rem ;
+}
+
+#location {
+    margin-left: 15rem;
+    width: 35rem;
+    position: absolute;
+    left: 30rem;
+    top: 5rem;
+}
+
+#email {
+    margin-left: 20rem;
+    position: absolute;
+    left: 62rem;
+    top: 5rem;
+}
+
+#hyperlink{
+    margin-left: 0px;
+}
+
+#copyright{
+    text-align: center;
+    font-size: larger;
+    padding: 1rem;
+}
+
+#allimage {
+    background-color: rgba(167, 153, 153, 0.386);
+}
+
+.clgimg{
+    display: flex;
+}
+
+.clgimg1 {
+    margin: 3rem 5rem 3rem 5rem;
+    width: 50rem;
+    height: 45rem;
+}
+
+.clgimg2{
+    margin: 3rem 5rem 3rem 5rem;
+    height: 45rem;
+    width: 55rem;
+}
+
+#group {
+    height:40rem ;
+    margin: 1rem 15rem 1rem 7rem;
+}
+
+#brdrs {
+    width: 30rem;
+    margin: 1rem 2.5rem 1rem 5rem;
+}
+
+#container {
+    height: 62rem;
+    width: 130rem;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 27rem 27rem 36rem 30rem;
+    grid-template-rows: 33rem 27rem;
+}
+
+.box {
+    margin: 1rem;
+}
+
+#box1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#box2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#box4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#aysh {
+    height: 59rem;
+    width: 26rem;
+}
+
+#vishal {
+    height: 59rem;
+    width: 26rem;
+}
+
+#group1 {
+    width: 35rem;
+    height: 32rem;
+
+}
+
+#ayush {
+    width: 29rem;
+    height: 59rem;
+}
+
+#alone {
+    height: 26rem;
+    width: 35rem;
+}
+
+.img {
+    padding: 1rem 26.5rem .5rem 26.5rem;
+    width: 57rem;
+    background-color: rgba(167, 153, 153, 0.386);
+}
+
+#course {
+    border: .5rem solid #f08804;
+    width: 110rem;
+    margin: 2rem 10rem 5rem 10rem;
+    background-color: rgba(167, 153, 153, 0.386);
+}
+
+thead {
+    background-color: skyblue;
+}
+
+table {
+    width: 75rem;
+    text-transform: capitalize;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+th {
+    text-align: start;
+    color: #000000;
+}
+
+#rggp {
+    width: 75rem;
+    margin-left: 3rem;
+}
+
+.nav{
+    display: inline-block;
+    height: 3rem;
+    width: auto;
+    margin: 0rem;
+}
+
+.nav:hover{
+    background-color: #f08804;
+    transition: all ease-in 0.3s;
+}
+
+.img:hover{
+    background-color: darkgrey;
+    transition: all ease-in 0.2s;
+}
+
+footer:hover{
+    background-color: #062929;
+}
+
+.paper{
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.ques{
+    border: .2rem solid gray;
+    display: inline-block;
+    margin: 1rem;
+    width: 25.5rem;
+}
+
+.ques:hover{
+    background-color: gray;
+
+    transition: all ease-in 0.3s;
+}
+
+@media(max-width:1250px) {
+    html {
+        font-size: 57%;
+    }
+}
+
+@media(max-width:998px) {
+    html {
+        font-size:55%;
+    }
+}
+
+@media(max-width:950px) {
+    html {
+        font-size: 52%;
+    }
+}
+
+@media(max-width:900px) {
+    html {
+        font-size: 49%;
+    }
+}
+
+@media(max-width:850px) {
+    html {
+        font-size: 46%;
+    }
+}
+
+@media(max-width:800px) {
+    html {
+        font-size: 42%;
+    }
+}
+
+@media(max-width:750px) {
+    html {
+        font-size: 38%;
+    }
+}
+
+@media(max-width:700px) {
+    html {
+        font-size: 34%;
+    }
+}
+
+@media(max-width:650px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media(max-width:600px) {
+    html {
+        font-size: 27%;
+    }
+}
+
+@media(max-width:550px) {
+    html {
+        font-size: 23%;
+    }
+}
+
+@media(max-width:500px) {
+    html {
+        font-size: 20%;
+    }
+}
